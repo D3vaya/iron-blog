@@ -21,3 +21,8 @@
   align-items: center;
   justify-content: center;
 }
+
+.hero__image {
+  height: 200px;
+  border-radius: 10px;
+}
