@@ -16,7 +16,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "D3vaya", // Usually your GitHub org/user name.
+  organizationName: "d3vaya", // Usually your GitHub org/user name.
   projectName: "Iron Blog", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -36,15 +36,13 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/d3vaya/iron-blog",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/d3vaya/iron-blog",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
